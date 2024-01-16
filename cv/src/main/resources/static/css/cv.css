@@ -1,0 +1,50 @@
+.fuente{
+color: white;
+font-family: 'Basic', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+}
+.titulo{    
+    pointer-events: none;
+    color: white;
+    cursor: default; 
+    font-size: larger;
+}
+.colornav{
+    background-color: rgb(0, 0, 0) !important;
+}
+.titulo2{       
+    color: white !important; 
+}
+.titulo2:hover{   
+    color: rgb(196, 196, 196) !important;
+}
+.colorbg{
+    background-color: rgb(255, 255, 255) !important;
+}
+/* Estilos para el elemento seleccionado */
+.seleccionado {
+    color: black !important;
+    position: relative;
+    background-color: white;
+    border-radius: 10px 10px 0 0; /* Define el radio para las esquinas */
+    box-shadow: 0 14px 0 0 white; /* Agrega una sombra simulando la extensión hacia abajo */
+    transition: all 0.3s ease; /* Agregar transición */
+
+
+}
+#navbar li {
+    display: inline-block; /* Para que los elementos estén en línea */
+    margin-right: 30px; /* Ajusta el margen derecho entre los elementos */
+}
+.texto{
+   
+    text-align: justify;
+}
+.mover{
+    margin-left: 10%;
+    margin-top: 20%;
+}
+hr {
+    height: 5px;
+    background-color: rgb(29, 29, 29) !important;
+  }
